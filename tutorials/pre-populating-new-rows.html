@@ -82,7 +82,7 @@
               i,
               c;
 
-            for (i = 0; i < ilen; i++) {
+            for (i = 0; i < ilen/clen; i++) {
               // if oldVal is empty
               if (changes[i][2] === null && changes[i][3] !== null) {
                 if (isEmptyRow(instance, changes[i][0])) {
